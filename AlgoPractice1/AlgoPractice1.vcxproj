@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\algo\merge_sort.h" />
+    <ClInclude Include="src\ds\MyLinkedList.h" />
+    <ClInclude Include="src\util\print_vector.h" />
+    <ClInclude Include="src\util\random_generator.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,14 +147,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="AlgoPractice1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="merge_sort.h" />
-    <ClInclude Include="print_vector.h" />
-    <ClInclude Include="random_generator.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
