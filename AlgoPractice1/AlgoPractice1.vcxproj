@@ -23,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\algo\merge_sort.h" />
+    <ClInclude Include="src\algo\quick_sort.h" />
     <ClInclude Include="src\ds\MyLinkedList.h" />
     <ClInclude Include="src\util\print_vector.h" />
     <ClInclude Include="src\util\random_generator.h" />

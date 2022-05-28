@@ -44,5 +44,8 @@
     <ClInclude Include="src\ds\MyLinkedList.h">
       <Filter>Source Files\src\ds</Filter>
     </ClInclude>
+    <ClInclude Include="src\algo\quick_sort.h">
+      <Filter>Source Files\src\algo</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
